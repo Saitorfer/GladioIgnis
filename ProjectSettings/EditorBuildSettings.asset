@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DuelMode3.unity
     guid: e64c4a1996646394cbbceb76aca24dc9
+  - enabled: 1
+    path: Assets/Scenes/DuelSelectionMap.unity
+    guid: 378301172bc191d45b49fcc14af7bc36
   m_configObjects: {}

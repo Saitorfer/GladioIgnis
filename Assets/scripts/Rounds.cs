@@ -19,7 +19,7 @@ public class Rounds : MonoBehaviour
     public int cont;
     public int contKills;
     public int round;
-    public float baseLife=20;
+    public float baseLife = 20;
     public float baseLifeBoss = 150;
     int probability;
 
@@ -35,7 +35,7 @@ public class Rounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        txtround.text="Round: "+round;
+        txtround.text = "Round: " + round;
         //cuenta rondas FUNCIONA
         cont = cont;
         //cuenta kill FUNCIONA
@@ -194,7 +194,7 @@ public class Rounds : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawCube(center,size);
+        Gizmos.DrawCube(center, size);
     }
 
     /*public void Spawn()
@@ -208,12 +208,12 @@ public class Rounds : MonoBehaviour
 
     public void SpawnBoss()
     {
-        
+
         Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
         boss.gameObject.GetComponent<HealthEnemy>().max_health = BossLife();
         //boss.gameObject.GetComponent<EnemyAttack>().damage = DamageEnemies();
         Instantiate(boss, pos, Quaternion.identity);
-        
+
     }
 
     //Nuevos metodos
@@ -247,7 +247,8 @@ public class Rounds : MonoBehaviour
         if (round >= 10)
         {
             x = 15f;
-        }else if (round >= 20)
+        }
+        else if (round >= 20)
         {
             x = 20f;
         }
@@ -287,9 +288,7 @@ public class Rounds : MonoBehaviour
         {
             x = 10f;
         }
-        
+
         return x;
     }
-
-
 }
