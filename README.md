@@ -5,6 +5,7 @@ It also has a duel mode to play against your friends in dualscreen. But not onli
 
 How to play?
 Use WASD to move and SPACE to attack, you can also use ESC to leave the game.
+In duel: One player user WASD and SPACE and the Second Player user Arrow keys and the Left Click on the mouse.
 
 
 Menu:
