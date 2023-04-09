@@ -4,8 +4,10 @@ Gladio Ignis II is a 3D polygonal game. The Unity game engine is used for this p
 It also has a duel mode to play against your friends in dualscreen. But not online.
 
 How to play?
-Use WASD to move and SPACE to attack, you can also use ESC to leave the game.
-In duel: One player user WASD and SPACE and the Second Player user Arrow keys and the Left Click on the mouse.
+
+Single Player: Use WASD to move and SPACE to attack, you can also use ESC to leave the game.
+
+Duel: Player One use WASD and SPACE and the Second Player user Arrow keys and the Left Click on the mouse.
 
 
 Menu:
